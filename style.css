@@ -1,0 +1,30 @@
+body { 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #f4f4f4; 
+} 
+.container { 
+    max-width: 800px; 
+    margin: auto; 
+    padding: 20px; 
+} 
+h1 { 
+    color: #333; 
+} 
+.car-gallery { 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+} 
+.car-gallery img { 
+    width: 200px; 
+    height: auto; 
+    border-radius: 10px; 
+    transition: transform 0.3s ease-in-out; 
+} 
+.car-gallery img:hover { 
+    transform: scale(1.1); 
+} 
